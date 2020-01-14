@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 )
-func testTwoSum(t *testing.T){
+func TestTwoSum(t *testing.T){
 	type input struct {
 		input1 []int
 		input2 int
